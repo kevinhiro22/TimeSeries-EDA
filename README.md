@@ -1,24 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-Per8O2k)
-# Live Code 5
-
----
-
-## Assignment Objectives
-
-*Live Code 5* ini dibuat guna mengevaluasi konsep Time Series Analysis pada pembelajaran Phase 1 sebagai berikut:
-
-- Mampu memahami konsep Time Series Analysis untuk kebutuhan forecasting.
-
-- Mampu melakukan time series decomposition untuk mengetahui pola seasonal data.
-
-- Mampu menerapkan pengujian stasioneritas dan penerapan teknik differencing pada data.
-.
-- Mampu melakukan forecasting data dengan model ARIMA.
-
-- Mampu menentukan model yang terbaik berdasarkan metrik evaluasi.
-
----
-
 ## Dataset Description
 
 Dataset : `multiTimeline.csv`
@@ -41,7 +20,7 @@ Anda bekerja di sebuah perusahaan travel agent dan diminta untuk menganalisa per
 
 ## Assignment Instructions
 
-*Live Code 4* dikerjakan dalam format *notebook* dengan beberapa *kriteria wajib* di bawah ini:
+tugas ini dikerjakan dalam format *notebook* dengan beberapa *kriteria wajib* di bawah ini:
 
 1. Time series analysis dan forecasting dilakukan dengan menggunakan library *Statsmodels*.
 
@@ -94,59 +73,5 @@ Anda bekerja di sebuah perusahaan travel agent dan diminta untuk menganalisa per
     ├── multiTimeline.csv
     └── README.md
     ```
-
----
-
-## Assignment Rubrics
-
-### Code Review
-
-| Criteria | Meet Expectations | Points|
-| --- | --- | --- |
-| Time Series Decomposition | Mampu melakukan time series decomposition dan menentukan periode seasonal data | 5 pts |
-| Stationarity | Mampu menerapkan uji stasioneritas pada data dan melakukan tindaklanjut dari hasil pengujian, menentukan parameter `d` | 5 pts |
-| ARIMA | Mampu melakukan forecasting dengan model ARIMA dengan parameter yang tepat | 5 pts |
-| Fine Tuning | Mampu menentukan kombinasi `p` dan `q` untuk mengimprovisasi model | 5 pts |
-| Model Inference | Mampu memprediksi data hingga setahun ke depan | 5 pts |
-| Runs Perfectly | Kode berjalan tanpa ada error. Seluruh kode berfungsi dan dibuat dengan benar | 5 pts |
-
-
-### Readability
-
-| Criteria | Meet Expectations | Points|
-| --- | --- | --- |
-| Tertata Dengan Baik | Semua baris kode terdokumentasi dengan baik dengan menggunakan Markdown untuk penjelasan kode. | 5 pts |
-
-```
-Kriteria tertata dengan baik diantaranya adalah : 
-
-1. Terdapat section Perkenalan yang jelas
-2. Tidak menyalin markdown dari tugas lain.
-3. Import library rapih (terdapat dalam 1 cell dan tidak ada unused libs).
-4. Pemakaian fungsi markdown yang optimal (Heading, text formating, dll). 
-5. Terdapat komentar pada setiap baris kode.
-6. Adanya pemisah yang jelas antar section, dll.
-7. Tidak adanya typo.
-```
-
-### Analysis
-
-| Criteria | Meet Expectations | Points|
-| --- | --- | --- |
-| Overall Analysis | Menarik informasi/kesimpulan dari keseluruhan kegiatan yang dilakukan | 5 pts |
-
-```
-Contoh kriteria analisa yang baik diantaranya adalah: 
-
-1. Terdapat penjelasan hasil evaluasi model dengan menggunakan metrics MAE interpretasi/kaitannya terhadap kasus yang diselesaikan.
-2. Dapat menjelaskan kelemahan/kekurangan dan kelebihan dari model yang dibuat.
-3. Dapat menyebutkan insight yang dilakukan pada proses EDA, dll.
-```
-
----
-
-```
-Total Points : 40
-```
 
 ---
